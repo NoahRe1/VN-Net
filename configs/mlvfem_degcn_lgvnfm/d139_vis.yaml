@@ -7,7 +7,7 @@ data:
   station_path: 'data/small_weather2K_split139.npy'
   station_mean_std_path: 'data_process/mean_std_d139.npy'
 
-  image_path : 'data/big_160_139_16.npy'
+  image_path : 'data/H8_SE_160x160_139.npy'
   image_max_min_path : 'data_process/max_min_d139.npy'
 
   is_random: False  # whether to use random data as satellite images
