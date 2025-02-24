@@ -21,7 +21,7 @@ def load_dataset(
     txt_path="data_process/path.txt",
     station_path="data/small_weather2K_split60.npy",
     station_mean_std_path="data_process/mean_std_d60.npy",
-    image_path="data/big_160_60_16.npy",
+    image_path="data/H8_NE_160x160_60.npy",
     image_max_min_path="data_process/max_min_d60.npy",
     val_batch_size=None,
     batch_size=32,
