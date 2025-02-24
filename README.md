@@ -29,7 +29,7 @@ If you want to learn more detail of downloading and data processing, the instruc
 We provide the [processed visual data](https://pan.baidu.com/s/1lL-4yuLTrmzTqzGGqcAIOw?pwd=zwg4) of three sub-regions.
 
 
-## Training
+## Training and Evaluation
 
 Taking the temperature prediction for the Northeast region as an example, use the following command to train the model:
 
@@ -37,3 +37,5 @@ Taking the temperature prediction for the Northeast region as an example, use th
 python train.py --config_filename configs/mlvfem_degcn_lgvnfm/d60_temp.yaml
 ```
 
+The train epoch is set to 100 and the early-stopping epoch is set to 15.
+After the training is completed, the MAE and RMSE metrics will be automatically evaluated and saved in the log file.
