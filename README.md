@@ -2,7 +2,7 @@
 
 This is the official PyTorch implementation of VN-Net.
 
-![Logo](./images/architecture.png)
+![Logo](./architecture.png)
 
 
 ## Environment Installation
